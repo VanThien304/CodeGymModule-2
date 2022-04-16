@@ -15,19 +15,18 @@ public class Main {
 
         for (i = 0; i < number; i++)
             array[i] = input.nextInt();
-        for (i = 0; i < (number - 1); i++){
-            for (j = 0; j < number - i - 1;j++){
-            if(array[j] < array[j + 1])
-            {
-                temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
-               }
+        for (i = 0; i < (array.length - 1); i++) {
+            for (j = 0; j < array.length - i - 1; j++) {
+                if (array[j] < array[j + 1]) {
+                    temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
             }
         }
 
         System.out.println("Kết quả sau khi sắp xếp là thứ tự giảm dần là: ");
-        for (i = 0;i < number; i++){
+        for (i = 0; i < number; i++) {
             System.out.print(array[i] + "\t");
         }
     }
