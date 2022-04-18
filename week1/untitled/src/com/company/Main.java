@@ -3,12 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-    for (int i = 0; i <10; i++){
-        if(i == 5)
-        return;
-        System.out.println(i);
-    }
-        System.out.println("end");
+    Calculation cal = new Calculation();
+    cal.setX(10);
+    cal.setY(25);
+
+        System.out.println("x = " + cal.getX() + "--- y = " + cal.getY());
+        System.out.println("x + y = " + cal.sum());
+        System.out.println("x - y = " + cal.substract());
     }
 }
 
