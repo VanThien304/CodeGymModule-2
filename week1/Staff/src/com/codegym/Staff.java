@@ -17,4 +17,5 @@ public class Staff {
     public String getEmail(){
         return this.email;
     }
+
 }
