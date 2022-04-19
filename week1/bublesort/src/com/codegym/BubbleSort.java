@@ -21,7 +21,7 @@ public class BubbleSort {
 
     public static void main(String args[]) {
         BubbleSort ob = new BubbleSort();
-        int arr[] = { 5, 1, 4, 2, 8 };
+        int arr[] = { 9, 1, 4, 2, 8 };
         System.out.println("Mảng ban đầu:");
         ob.printArray(arr);
         ob.bubbleSort(arr);
