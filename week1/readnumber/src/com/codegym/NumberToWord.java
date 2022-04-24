@@ -4,31 +4,31 @@ public class NumberToWord {
     public static void units (int n) {
         switch (n) {
             case 1:
-                System.out.print("one ");
+                System.out.print("One ");
                 break;
             case 2:
-                System.out.print("two ");
+                System.out.print("Two ");
                 break;
             case 3:
-                System.out.print("three ");
+                System.out.print("Three ");
                 break;
             case 4:
-                System.out.print("four ");
+                System.out.print("Four ");
                 break;
             case 5:
-                System.out.print("five ");
+                System.out.print("Five ");
                 break;
             case 6:
-                System.out.print("six ");
+                System.out.print("Six ");
                 break;
             case 7:
-                System.out.print("seven ");
+                System.out.print("Seven ");
                 break;
             case 8:
-                System.out.print("eight ");
+                System.out.print("Eight ");
                 break;
             case 9:
-                System.out.print("nine ");
+                System.out.print("Nine ");
                 break;
         }
     }
@@ -36,31 +36,31 @@ public class NumberToWord {
     public static void special (int n) {
         switch (n) {
             case 11:
-                System.out.print("eleven ");
+                System.out.print("Eleven ");
                 break;
             case 12:
-                System.out.print("twelve ");
+                System.out.print("Twelve ");
                 break;
             case 13:
-                System.out.print("thirteen ");
+                System.out.print("Thirteen ");
                 break;
             case 14:
-                System.out.print("fourteen ");
+                System.out.print("Fourteen ");
                 break;
             case 15:
-                System.out.print("fifteen ");
+                System.out.print("Fifteen ");
                 break;
             case 16:
-                System.out.print("sixteen ");
+                System.out.print("Sixteen ");
                 break;
             case 17:
-                System.out.print("seventeen ");
+                System.out.print("Seventeen ");
                 break;
             case 18:
-                System.out.print("eighteen ");
+                System.out.print("Eighteen ");
                 break;
             case 19:
-                System.out.print("nineteen ");
+                System.out.print("Nineteen ");
                 break;
         }
     }
@@ -68,31 +68,31 @@ public class NumberToWord {
     public static void tens (int n) {
         switch (n) {
             case 1:
-                System.out.print("ten ");
+                System.out.print("Ten ");
                 break;
             case 2:
-                System.out.print("twenty ");
+                System.out.print("Twenty ");
                 break;
             case 3:
-                System.out.print("thirty ");
+                System.out.print("Thirty ");
                 break;
             case 4:
-                System.out.print("forty ");
+                System.out.print("Forty ");
                 break;
             case 5:
-                System.out.print("fifty ");
+                System.out.print("Fifty ");
                 break;
             case 6:
-                System.out.print("sixty ");
+                System.out.print("Sixty ");
                 break;
             case 7:
-                System.out.print("seventy ");
+                System.out.print("Seventy ");
                 break;
             case 8:
-                System.out.print("eighty ");
+                System.out.print("Eighty ");
                 break;
             case 9:
-                System.out.print("ninety ");
+                System.out.print("Ninety ");
                 break;
         }
     }
@@ -100,31 +100,31 @@ public class NumberToWord {
     public static void hundred (int n) {
         switch (n) {
             case 1:
-                System.out.print("one hundred ");
+                System.out.print("One Hundred ");
                 break;
             case 2:
-                System.out.print("two hundred ");
+                System.out.print("Two Hundred ");
                 break;
             case 3:
-                System.out.print("three hundred ");
+                System.out.print("Three Hundred ");
                 break;
             case 4:
-                System.out.print("four hundred ");
+                System.out.print("Four Hundred ");
                 break;
             case 5:
-                System.out.print("five hundred ");
+                System.out.print("Five Hundred ");
                 break;
             case 6:
-                System.out.print("six hundred ");
+                System.out.print("Six Hundred ");
                 break;
             case 7:
-                System.out.print("seven hundred ");
+                System.out.print("Seven Hundred ");
                 break;
             case 8:
-                System.out.print("eight hundred ");
+                System.out.print("Eight Hundred ");
                 break;
             case 9:
-                System.out.print("nine hundred ");
+                System.out.print("Nine Hundred ");
                 break;
         }
     }
@@ -141,8 +141,8 @@ public class NumberToWord {
         }
 
         if(number>99 && number<1000) {
-            int h = number/100;
-            hundred(h);
+            int H = number/100;
+            hundred(H);
 
             int x = number%100;
             if(x>10 && x<20){

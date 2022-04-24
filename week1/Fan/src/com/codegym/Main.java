@@ -7,5 +7,6 @@ public class Main {
     Fan fan2 = new Fan(2,false,"Blue",5);
         System.out.println(fan1.toString());
         System.out.println(fan2.toString());
+        System.out.println("Fan1 color is: " + fan1.getColor());
     }
 }

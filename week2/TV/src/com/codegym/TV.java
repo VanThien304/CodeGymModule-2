@@ -5,7 +5,13 @@ public class TV {
     int volumeLevel = 1;
     boolean on = false;
 
+    // Ham khoi tao constructor
     public TV(){
+    }
+    public TV(int channelNew, int volumeLevel, boolean enable){
+        this.channel = channelNew;
+        this.volumeLevel = volumeLevel;
+        this.on = enable;
     }
 
     public void turnOn(){

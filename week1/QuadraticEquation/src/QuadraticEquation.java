@@ -52,6 +52,7 @@ public static class QuadracticEquation {
 //        return c;
 //    }
     public double getDelta() {
+
         return Math.pow(b, 2) - 4 * a * c;
     }
 }
